@@ -44,7 +44,7 @@ public class AdminList extends AdministrationSectionExt {
 	 */
 	public Map<String, String> getLinks() {
 		LinkedHashMap<String, String> map = new LinkedHashMap<String, String>();
-		map.put("/module/esaudedq/manage.form", "esaudedq.manage");
+		map.put("/dataintegrity/results.page", "Integrity Checks");
 		return map;
 	}
 	
